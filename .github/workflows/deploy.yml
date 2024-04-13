@@ -2,17 +2,11 @@ name: 'Deploy Resources'
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 'Deploy Resources to Netlify'
-        env:
-          REMOTE_REPO_URL: ${{ github.event.repository.html_url }}
-        run: |
-          curl -X POST \
-               -H "Content-Type: application/json" \
-               -d '{"REMOTE_REPO_URL": "${{ env.REMOTE_REPO_URL }}"}' \
-               ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: curl -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}
