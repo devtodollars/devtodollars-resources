@@ -13,8 +13,8 @@ Not much to setup here outside of the [getting started ](../../)guide.
   * `/flutter/lib/services` -> Utility or [state management](state-management.md) classes are stored here
   * `/flutter/lib/models` -> Class or interface definitions that are passed around
 * `/flutter/env.json` -> Environment variables for production
-* `/flutter/env.local.json` -> Environment variables for [local development](../backend/supabase-local-development.md)
-* `/flutter/bumpversion.sh` -> Script used for [upgrading the app version](../release.md)
+* `/flutter/env.local.json` -> Environment variables for [local development](../supabase/supabase-local-development.md)
+* `/flutter/bumpversion.sh` -> Script used for [upgrading the app version](release.md)
 
 :::warning
 Do NOT put sensitive keys into `env.json` or `env.local.json`

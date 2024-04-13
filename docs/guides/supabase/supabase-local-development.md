@@ -36,7 +36,7 @@ supabase functions serve --env-file supabase/.env.local
 ```
 
 :::info
-You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../payments.md) production env in local supabase env.
+You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../stripe.md) production env in local supabase env.
 :::
 
 6. Run the flutter web app (in new terminal)
