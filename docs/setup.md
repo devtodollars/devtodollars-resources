@@ -7,7 +7,7 @@ sidebar_position: 2
 
 Below are the order of guides you should follow to get everything up and running.
 
-1. Run the [flutter web app locally](intro.md) (5 minutes)
+1. Run the [flutter web app locally](getting-started.md) (5 minutes)
 2. [Rename](guides/frontend/rename-your-project.md) your project (2 minutes)
 3. Setup your own [Supabase backend](guides/backend/README.md) (10 minutes)
 
