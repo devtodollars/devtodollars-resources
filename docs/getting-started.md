@@ -1,22 +1,31 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
-# ⚡ Setup in 17 minutes
+# ▶️  Getting Started
 
-## Mandatory Steps
+### Welcome to DevToDollars
 
-Below are the order of guides you should follow to get everything up and running.
+Here's a quick overview of the boilerplate. Follow along to get your app up and running.
 
-1. Run the [flutter web app locally](intro.md) (5 minutes)
-2. [Rename](guides/frontend/rename-your-project.md) your project (2 minutes)
-3. Setup your own [Supabase backend](guides/backend/README.md) (10 minutes)
+Once you're done, start with [this tutorial](getting-started.md) to launch your project in 5 minutes. Let's get started in **under 2 minutes**. ⚡️
 
-## Recommended Steps
+### Run flutter local web server
 
-After you complete the above mandatory steps, follow the below
+1. [Install flutter](https://docs.flutter.dev/get-started/install)
+2. In your terminal, run the following commands:
 
-1. Setup [local supabase development](guides/backend/supabase-local-development.md) (15 minutes)
-2. Enable payments through [Stripe](guides/payments.md) (10 minutes)
-3. Collect analytics through [Posthog](guides/analytics.md) (10 minutes)
-4. Configure the [release pipelines](guides/release.md) (10 minutes)
+```bash
+git clone https://github.com/devtodollars/flutter-supabase-production-template.git YOUR_APP_NAME
+cd YOUR_APP_NAME
+```
 
+3. Run the local web server.
+
+```bash
+cd flutter
+flutter run -d chrome --dart-define-from-file=env.json
+```
+
+:::info
+The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](guides/backend/README.md).
+:::
