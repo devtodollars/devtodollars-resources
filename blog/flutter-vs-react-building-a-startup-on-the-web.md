@@ -48,5 +48,5 @@ So, if you're thinking of hiring someone, you don't need to find someone who onl
 | Setup Time               | ✅       | ❌     |
 | Transitioning to Mobile  | ✅       | ❌     |
 | SEO / Initial Load Speed | ❌       | ✅     |
-| Hiring                   | ❌       | ✅<br> |
-| Performance              | ❌<br>   | ✅     |
+| Hiring                   | ❌       | ✅     |
+| Performance              | ❌       | ✅     |
