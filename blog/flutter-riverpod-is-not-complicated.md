@@ -1,7 +1,7 @@
 ---
 title: Flutter Riverpod is Not Complicated - Getting Started with Riverpod
 description: There seems to be a lot of confusion with Riverpod and the way it is used. Admittedly the documentation is lacking. And for someone getting started, there are many decisions to be made.
-image: assets/riverpod-banner.png
+image: ./assets/riverpod-banner.png
 date: 2024-03-29
 authors:
   - name: Matthew Wong
