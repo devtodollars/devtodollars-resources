@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 ---
-
-## Setup Supabase backend
+# Setup Supabase
+## Setup backend
 
 1. Setup [Flutter](./README.md) and [Supabase](../../supabase/README.md)
 2. Go to Project Settings > API. Then copy the project url and anon key into the variables `SUPABASE_URL` and `SUPABASE_ANON_KEY` respectively in the `env.json` file.
@@ -20,7 +20,7 @@ sidebar_position: 1
 flutter run --dart-define-from-file=env.json
 ```
 
-## Setup Supabase locally (Optional)
+## Local setup (Optional)
 1. [Setup local Supabase](../../supabase/supabase-local-development.md#setup)
 2. Run the flutter web app (in new terminal)
 
