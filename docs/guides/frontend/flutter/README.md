@@ -2,7 +2,7 @@
 
 ## Setup
 
-Not much to setup here outside of the [getting started ](../../)guide.
+Not much to setup here outside of the [getting started](../../../getting-started.md) guide.
 
 ## Flutter Project Structure
 
