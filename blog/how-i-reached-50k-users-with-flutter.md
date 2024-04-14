@@ -7,6 +7,7 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 ---
+![50k-flutter-banner](assets/50k-flutter-banner.png)
 Hey, I'm Matt, once the CTO of a startup backed by YC. Today, I'm here to unravel the steps I took to reach 50,000 users and how you can replicate this success!
 
 <!-- truncate -->

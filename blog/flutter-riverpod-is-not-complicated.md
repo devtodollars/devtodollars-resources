@@ -7,6 +7,7 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 ---
+![riverpod-banner](assets/riverpod-banner.png)
 There seems to be a lot of confusion with Riverpod and the way it is used. Admittedly the [documentation is lacking](https://www.reddit.com/r/FlutterDev/comments/11omsdq/comment/jbu56su/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button). And for someone getting started, there are many decisions to be made like:
 
 - Should I use code-generation?
