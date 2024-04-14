@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 # Landing Page (Docusaurus)
-I chose [Docusaurus]() because I wanted a customizable documentation website that where I can use [Github](https://github.com) and [markdown](https://www.markdownguide.org/) as my CMS. Other solutions I found weren't customizable enough and/or didn't have the built-in SEO (e.g. blog or documentation) I needed.
+I chose [Docusaurus](https://docusaurus.io/) because I wanted a customizable documentation website that where I can use [Github](https://github.com) and [markdown](https://www.markdownguide.org/) as my CMS. Other solutions I found weren't customizable enough and/or didn't have the built-in SEO (e.g. blog or documentation) I needed.
 
 ## 1. Setup Docusaurus
 By the end of this setup you will have a deployed version of docusaurus.
