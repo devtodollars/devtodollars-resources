@@ -10,7 +10,7 @@ Below are the steps to configure the [pipelines](https://github.com/devtodollars
 1. Create a Netlify site: Add New Site > Manual Deploy
 2. Upload below .zip file to create the website
 
-[Download web.zip](../../assets/web.zip)
+[Download web.zip](../../../assets/web.zip)
 
 3. (OPTIONAL) [Configure a custom domain](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain) in Netlify
 
@@ -57,7 +57,7 @@ git push --tags
 4. Wait for the build to finish running, and a deploy preview should be created. You can test if your flutter changes work.
 
 :::info
-If you made backend changes, they won't be reflected unless you [push local changes to prod env](../supabase/supabase-local-development.md#pushing-local-changes-to-prod-env) and/or [deploy the supabase edge functions](../supabase/common-commands.md#deploy-supabase-functions)
+If you made backend changes, they won't be reflected unless you [push local changes to prod env](../../supabase/supabase-local-development.md#pushing-local-changes-to-prod-env) and/or [deploy the supabase edge functions](../../supabase/common-commands.md#deploy-supabase-functions)
 :::
 
 4. Update the [release draft notes](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#editing-a-release) with the changes you made
