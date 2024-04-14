@@ -1,5 +1,7 @@
 ---
 title: Resources for Founders at Every Stage
+description: For the past 2 years I've been building startups and for my most recent startup I was able to reach 50k users in under 6 months. These are the resources that helped me get to where I am today.
+image: assets/startup-resources-banner.png
 date: 2024-03-23
 authors:
   - name: Matthew Wong

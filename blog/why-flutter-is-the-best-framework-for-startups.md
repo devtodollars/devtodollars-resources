@@ -1,5 +1,7 @@
 ---
 title: Why Flutter is the Best Framework for Startups
+description: Flutter stands out as the best tool for achieving quick iterations. In this blog post, I dive deep into why I believe in Flutter's capabilities. I'll share insights from my current startup's workflow using Flutter, discuss some challenges I've encountered along the way, and outline precisely why I consider it a superior choice for any startup looking to move quickly and efficiently.
+image: assets/flutter-startups-banner.png
 date: 2024-03-14
 authors:
   - name: Matthew Wong

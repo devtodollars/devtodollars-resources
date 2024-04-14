@@ -1,5 +1,7 @@
 ---
 title: "Solopreneur SaaS Toolkit: My Tech Stack as a former CTO of a YC backed startup"
+description: Hi! My name is Matt. I'm a former CTO of a YC backed startup and I've built 2 apps in the past that have both generated over $10K USD of revenue.
+image: assets/tech-stack-banner.png
 date: 2024-03-11
 authors:
   - name: Matthew Wong

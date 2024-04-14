@@ -1,5 +1,7 @@
 ---
 title: Flutter vs React - Building a Startup on the Web
+description: Flutter for web has evolved significantly in the past few years and in this post I wanted to give a comprehensive comparison between using Flutter vs React for developing web apps specifically.
+image: assets/startup-web-banner.png
 date: 2024-03-16
 authors:
   - name: Matthew Wong
