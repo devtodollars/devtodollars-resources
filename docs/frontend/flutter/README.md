@@ -18,7 +18,7 @@ flutter run -d chrome --dart-define-from-file=env.json
 ```
 
 :::info
-The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](guides/supabase/README.md).
+The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](../../supabase/README.md).
 :::
 
 ## Flutter Project Structure

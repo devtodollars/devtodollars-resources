@@ -10,7 +10,7 @@ sidebar_position: 4
 3. Go to [portal settings](https://dashboard.stripe.com/settings/billing/portal) and click "Save Changes"
 4. Go to Supabase dashboard > Edge Functions and copy the `stripe_webhooks` URL. It should look something like below:
 
-![](../assets/stripe-webhook-supabase.png)
+![](assets/stripe-webhook-supabase.png)
 
 5. [Add stripe webhook](https://docs.stripe.com/webhooks#add-a-webhook-endpoint), using the copied endpoint and the following event types:
    1. customer.subscription.deleted
@@ -20,7 +20,7 @@ sidebar_position: 4
 6. Get your [Stripe API secret key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard) and update `STRIPE_SECRET_KEY` in `supabase/.env`
 7. Get the signing webhook signing secret and update `STRIPE_WEBHOOK_SIGNING_SECRET` in `supabase/.env`
 
-![](../assets/stripe-signing-secret.png)
+![](assets/stripe-signing-secret.png)
 
 8. Set your secrets in production
 
@@ -37,7 +37,7 @@ You can follow steps 1-7 in the [Stripe test environment](https://docs.stripe.co
 1. Go to the [product catalog](https://dashboard.stripe.com/products) and select a product
 2. Copy the price id you want to add
 
-![](../assets/stripe-price-id.png)
+![](assets/stripe-price-id.png)
 
 3. Craft a URL from the flutter app in the format `https://YOUR_URL/payments?price=YOUR_PRICE`. For example:
 
@@ -61,7 +61,7 @@ Subscriptions are deleted from `active_products` when they are either not: activ
 
 1. Since the stripe product ids are stored in `active_products` we need to first retrieve the product id from stripe
 
-![](../assets/stripe-prod-id.png)
+![](assets/stripe-prod-id.png)
 
 2. In order to add the paywall, all you need to do is check if active\_products contains a particular stripe product id.&#x20;
 
