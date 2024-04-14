@@ -15,7 +15,10 @@ By the end of this setup you will have a deployed version of docusaurus.
 4. Click "Deploy" and wait for your site to be published!
 
 ## 2. Setup remote repository
-By the end of this setup you will have a repository that contains all your resources that will deploy. 
+By the end of this setup you will have a repository that contains all your resources that will deploy.
+:::info
+This remote repository overwrites the content within the original repository and publishes it to Netlify. See the [add-remote-repository.js](https://github.com/devtodollars/startup-boilerplate/blob/main/docusaurus/add-remote-resources.js) script.
+:::
 1. Click `Use this template` in the [resources repository](https://github.com/devtodollars/resources). This is the repository where the contents of your blog and documentation will be updated.
 2. Go to Netlify > Site Configuration > Build hooks and [create and copy a build hook](https://docs.netlify.com/configure-builds/build-hooks/)
 ![](../assets/netlify-build-hook.png)

@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## Setup
 
-1. If you haven't already, [setup Supabase](./)
+1. If you haven't already, [setup Supabase](./README.md)
 2. Install [Docker Desktop](https://docs.docker.com/desktop)
 3. Copy `.env.example` into `.env.local` and `.env`
 
@@ -38,13 +38,6 @@ supabase functions serve --env-file supabase/.env.local
 :::info
 You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../stripe.md) production env in local supabase env.
 :::
-
-6. Run the flutter web app (in new terminal)
-
-```bash
-cd flutter
-flutter run --dart-define-from-file=env.local.json -d chrome
-```
 
 :::info
 You can access a local version of the Supabase dashboard by visitng [http://localhost:54323/](http://localhost:54323/)

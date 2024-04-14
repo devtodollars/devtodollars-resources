@@ -4,29 +4,11 @@ slug: /
 ---
 # ▶️  Getting Started
 
-### Welcome to DevToDollars
+To get started, choose which frontend you need and go from there:
 
-Here's a quick overview of the boilerplate. Follow along to get your app up and running.
+- [Choose Flutter](guides/frontend/flutter/README.md) if you plan to build or expand into cross-platform apps (e.g. Duolingo, Fitbit, Spotify, Tinder, etc.)
+- [Choose NextJS](guides/frontend/nextjs/README.md) if SEO, page load speeds, and web-specific libraries are integral to your app (e.g. Shopify, Medium, Wix, etc.)
 
-Once you're done, start with [this tutorial](getting-started.md) to launch your project in 5 minutes. Let's get started in **under 2 minutes**. ⚡️
-
-### Run flutter local web server
-
-1. [Install flutter](https://docs.flutter.dev/get-started/install)
-2. In your terminal, run the following commands:
-
-```bash
-git clone https://github.com/devtodollars/flutter-supabase-production-template.git YOUR_APP_NAME
-cd YOUR_APP_NAME
-```
-
-3. Run the local web server.
-
-```bash
-cd flutter
-flutter run -d chrome --dart-define-from-file=env.json
-```
-
-:::info
-The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](guides/supabase/README.md).
+:::note
+It's also possible to start with one-platform and move onto the next one depending on your needs. For example, start with Next.JS and then move to Flutter when a mobile app is needed. Both are configured to work straight out of the box.
 :::
