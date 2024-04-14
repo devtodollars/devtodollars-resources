@@ -15,6 +15,8 @@ There seems to be a lot of confusion with Riverpod and the way it is used. Admit
 
 Because of this adaptability, it can become very confusing for someone just getting started. I'm creating this blog post to lay some ground rules that I set for myself when using riverpod. If you're getting started with riverpod, following these rules will be a good starting point.
 
+<!-- truncate -->
+
 But before reading on these rules, I highly recommend you checkout these guides in this order:
 1. [Flutter Riverpod 2.0: The Ultimate Guide](https://codewithandrea.com/articles/flutter-state-management-riverpod/)
 2. [How to Auto-Generate your Providers with Flutter Riverpod Generator](https://codewithandrea.com/articles/flutter-riverpod-generator/)

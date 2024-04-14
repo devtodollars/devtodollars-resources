@@ -11,6 +11,8 @@ Flutter for web has evolved significantly in the past few years and in this post
 
 Anyways, the most important thing in startups is iteration speed. The ability to quickly build a product, get customer feedback, and iterate is the thing that sets apart the good startups and the dead startups. Now in my opinion, a good framework (for startups), is one that enables you to iterate as fast as possible. With that knowledge, let's dive into why I think Flutter wins in almost all aspects.
 
+<!-- truncate -->
+
 ## Development Experience
 Flutter makes the dev life a breeze. Forget the headache of constant null checks, too many variables, and scratching your head over whether an empty array is truly empty. Dart’s tooling is just the cherry on top, making Flutter my go-to for a smooth coding experience.
 

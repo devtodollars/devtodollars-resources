@@ -8,6 +8,9 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 This is my guide on the fastest way to get paid with Stripe and Flutter. I'll walk through step-by-step instructions on how I set up stripe integration, how I associate purchases (subscriptions & one-time payments) with users, and how I keep track of all of that within Supabase. Afterwards, I'll talk about the review process and how to tip-toe around the strict AppStore rules. 
+
+<!-- truncate -->
+
 ## Stripe + Supabase Integration
 
 Stripe has a lot of built-in complexity to handle many edge cases. But at the end of the day, what's most important on the Supabase side is to know which user purchased what product or whether or not they are subscribed. My approach to this is to have an `active_products` column that is synced with Stripe and keeps track of the users' purchased products and products they are currently subscribed to. I also take advantage of Stripe's checkout portal so I don't need to create the payment UI myself.

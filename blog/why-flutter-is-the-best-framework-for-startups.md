@@ -11,6 +11,8 @@ Through the years, I've come to realize that in the startup world, speed isn't j
 
 With this in mind, I've found that Flutter stands out as the best tool for achieving quick iterations. In this blog post, I dive deep into why I believe in Flutter's capabilities. I'll share insights from my current startup's workflow using Flutter, discuss some challenges I've encountered along the way, and outline precisely why I consider it a superior choice for any startup looking to move quickly and efficiently.
 
+<!-- truncate -->
+
 ## My Typical Development cycle with Flutter as a Startup Founder
 
 From my experience, this workflow has been my go-to. Even for my current startup, I validated the idea with a Reddit post, then created a web app, and marketed and iterated based on customer feedback. I was able to go from idea to product to revenue in just under a week. You can do so too by following this approach. If you're curious about how I structured my code, check out my [open-source Flutter boilerplate](https://github.com/devtodollars/flutter-production-template).

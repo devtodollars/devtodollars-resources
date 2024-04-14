@@ -13,6 +13,8 @@ Before moving onto my third startup, I wanted to take a step back, reflect on wh
 
 [Github Boilerplate Code](https://github.com/devtodollars/flutter-supabase-production-template)
 
+<!-- truncate -->
+
 **Development**
 
 * Frontend ([Flutter](why-flutter-is-the-best-framework-for-startups.md))

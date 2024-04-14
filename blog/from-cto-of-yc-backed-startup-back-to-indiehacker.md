@@ -8,6 +8,9 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 TLDR; Worked as a CTO of a YC-backed company but broke up with my co-founder due to a difference in values. Now I'm helping developers build their startups.
+
+<!-- truncate -->
+
 ## Pre-breakup
 A couple of months ago, my co-founder and I were working on an AI education startup. We were YC-backed, grew to [50,000 users](how-i-reached-50k-users-with-flutter.md), and earned $10,000 in revenue in under three months. All these metrics seemed to point towards a product with product-market fit, yet we were far from achieving that. We found ourselves behind in a rat race with a handful of competitors. Our runway was nearly depleted as we were spending almost all of our revenue on marketing, and we found ourselves at the intersection of the two most challenging spaces to build a startup: education and consumer. This combination, especially without a targeted niche, made it difficult to stand out in a crowded market.
 

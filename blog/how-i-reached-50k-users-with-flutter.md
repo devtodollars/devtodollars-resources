@@ -8,6 +8,9 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 Hey, I'm Matt, once the CTO of a startup backed by YC. Today, I'm here to unravel the steps I took to reach 50,000 users and how you can replicate this success!
+
+<!-- truncate -->
+
 ### 1. Identifying a problem
 
 Everything began with a problem that needed solving. In my scenario, this was the tedious task med school students faced creating flashcards from their study material, dedicating precious hours each week to this alone.
