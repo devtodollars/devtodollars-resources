@@ -8,6 +8,7 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 ![startup-web-banner](assets/startup-web-banner.png)
+
 Flutter for web has evolved significantly in the past few years and in this post I wanted to give a comprehensive comparison between using Flutter vs React for developing web apps specifically. I've used both [Flutter and React for startups](how-i-reached-50k-users-with-flutter.md) so I have a good sense of both. 
 
 Anyways, the most important thing in startups is iteration speed. The ability to quickly build a product, get customer feedback, and iterate is the thing that sets apart the good startups and the dead startups. Now in my opinion, a good framework (for startups), is one that enables you to iterate as fast as possible. With that knowledge, let's dive into why I think Flutter wins in almost all aspects.

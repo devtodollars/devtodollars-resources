@@ -8,6 +8,7 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 ![yc-indiehacker-banner](assets/yc-indiehacker-banner.png)
+
 TLDR; Worked as a CTO of a YC-backed company but broke up with my co-founder due to a difference in values. Now I'm helping developers build their startups.
 
 <!-- truncate -->

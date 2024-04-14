@@ -7,7 +7,8 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 ---
-![flutter-stripe-banner](assets/flutter-stripe-banner.gif)
+![flutter-stripe-banner](assets/flutter-stripe-banner.png)
+
 This is my guide on the fastest way to get paid with Stripe and Flutter. I'll walk through step-by-step instructions on how I set up stripe integration, how I associate purchases (subscriptions & one-time payments) with users, and how I keep track of all of that within Supabase. Afterwards, I'll talk about the review process and how to tip-toe around the strict AppStore rules. 
 
 <!-- truncate -->

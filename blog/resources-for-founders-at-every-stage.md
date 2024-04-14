@@ -8,6 +8,7 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 ![startup-resources-banner](assets/startup-resources-banner.png)
+
 For the past 2 years I've been building startups and for my most recent startup I was able to reach [50k users in under 6 months](how-i-reached-50k-users-with-flutter.md). Throughout my journey, I've been consuming startup content like a fiend. These are the resources that helped me get to where I am today.
 
 <!-- truncate -->

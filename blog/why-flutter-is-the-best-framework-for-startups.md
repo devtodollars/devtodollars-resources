@@ -8,6 +8,7 @@ authors:
     image_url: https://github.com/matthewwong525.png
 ---
 ![flutter-startups-banner](assets/flutter-startups-banner.png)
+
 Through the years, I've come to realize that in the startup world, speed isn't just an advantage—it's the lifeline. As a former CTO of a YC-backed startup, having launched more than five apps—with the latest one hitting over $10K in revenue in under three months—I've witnessed the undeniable power of rapid iteration. This ability to quickly build, launch, gather feedback, and refine is what really distinguishes the seasoned entrepreneurs from the novices. It's what makes or breaks a startup.
 
 With this in mind, I've found that Flutter stands out as the best tool for achieving quick iterations. In this blog post, I dive deep into why I believe in Flutter's capabilities. I'll share insights from my current startup's workflow using Flutter, discuss some challenges I've encountered along the way, and outline precisely why I consider it a superior choice for any startup looking to move quickly and efficiently.
