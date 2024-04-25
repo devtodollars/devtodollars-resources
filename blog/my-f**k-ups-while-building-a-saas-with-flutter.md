@@ -8,7 +8,7 @@ authors:
     title: Founder
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
-draft: true
+draft: false
 ---
 ![](assets/mess-up-building-flutter.png)
 I wanted to share my mistakes to show you that building a SaaS can be messy, especially when you're still learning. These were short-term errors, but I quickly learned from each experience and became a better developer because of it. I hope this inspires you guys to go out there and build something!
