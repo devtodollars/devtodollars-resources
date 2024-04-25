@@ -1,6 +1,6 @@
 ---
 title: My f**k ups while building a SaaS with Flutter
-description: 
+description: "Learn from my journey: I tackled initial SaaS challenges by switching from React Native to Flutter, mastering state management, navigating multiple database migrations, and refining feature overload. My app now profits $800/month as I mentor future founders."
 image: ./assets/mess-up-building-flutter.png
 date: 2024-04-11
 authors:
