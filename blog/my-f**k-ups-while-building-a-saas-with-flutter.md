@@ -15,6 +15,7 @@ I wanted to share my mistakes to show you that building a SaaS can be messy, esp
 
 Right now, the app brings in roughly $800 per month, with most of that money coming in as profit. I'm putting it on maintenance mode for now while I focus on my next venture: helping developers become founders.
 
+<!-- truncate -->
 ## 1. Didn't Start with Flutter
 My first "f\*\*k up" is that I didn't start with Flutter. Coming from React, I thought React Native would be the perfect solution. I dove straight in and spent a month discovering that web integration was not ideal, performance was painful to deal with, and everything
 was hard to set up. Switching to Flutter was a breath of fresh air, and I realized I should have done it from the start, considering my needs (web, desktop, mobile app).
