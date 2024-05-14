@@ -20,7 +20,7 @@ sidebar_position: 1
 
 ```bash
 cp supabase/.env.example supabase/.env.local
-cp supabase/.env.example supabase/.env
+cp .env.example .env
 ```
 
 4. Start the Supabase server
