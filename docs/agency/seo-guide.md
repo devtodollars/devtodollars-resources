@@ -7,7 +7,7 @@ authors:
     title: Founder
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
-draft: true
+draft: false
 ---
 # Blog Post Checklist / Mistakes
 
