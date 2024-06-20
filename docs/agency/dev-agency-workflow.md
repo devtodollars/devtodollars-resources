@@ -1,6 +1,6 @@
 ---
 title: Dev Agency Workflow
-description: 
+description: Below are step-by-step instructions on what to do when working with the client
 date: 2024-06-20
 authors:
   - name: Matthew Wong
