@@ -1,3 +1,14 @@
+---
+title: SEO Guide
+description: A short guide on how to do SEO
+date: 2024-06-20
+authors:
+  - name: Matthew Wong
+    title: Founder
+    url: https://twitter.com/IThinkWong
+    image_url: https://github.com/matthewwong525.png
+draft: true
+---
 # Blog Post Checklist / Mistakes
 
 ## SEO Checklist
