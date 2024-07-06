@@ -4,7 +4,7 @@ sidebar_position: 1
 # Setup Supabase
 ## Setup backend
 
-1. Setup [Flutter](README.md) and [Supabase](../../supabase/README.md)
+1. Setup [Flutter](./README.md) and [Supabase](../../supabase/README.md)
 2. Go to Project Settings > API. Then copy the project url and anon key into the variables `SUPABASE_URL` and `SUPABASE_ANON_KEY` respectively in the `env.json` file.
 
 ```

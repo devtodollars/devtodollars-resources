@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## Setup
 
-1. If you haven't already, [setup Supabase](README.md)
+1. If you haven't already, [setup Supabase](./README.md)
 2. Install [Docker Desktop](https://docs.docker.com/desktop)
 3. Copy `.env.example` into `.env.local` and `.env`
 
