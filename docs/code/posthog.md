@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 # Analytics (Posthog)
 
@@ -28,13 +28,13 @@ For more advice on what sort of metrics to measure and when to add more, watch t
 1. Create a new dashboard
 2. Add DAUs graph to dashboard
 
-![](assets/posthog-trend.png)
+![](../assets/posthog-trend.png)
 
 3. Add conversion graph to dashboard
 
-![](assets/posthog-conversion.png)
+![](../assets/posthog-conversion.png)
 
 3. Add  retention graph to dashboard
 
-![](assets/posthog-retention.png)
+![](../assets/posthog-retention.png)
 
