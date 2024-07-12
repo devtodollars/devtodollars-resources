@@ -16,3 +16,7 @@ Depending on your needs, you might want to start at different points in our docu
 
 - **Interested in using the boilerplate?** Check out the [code documentation](code/getting-started.md) for detailed instructions on how to get started.
 - **Curious about our process?** Learn about [our agency workflow](agency/dev-agency-workflow.md) to understand how we operate and manage projects.
+
+:::tip[Want Us To Build Your MVP?]  
+[Schedule a call with us](https://usemotion.com/meet/ithinkwong/xyz6xw9?d=30). Our rate is $80 / hr and we typically build MVPs for around $5000
+:::
