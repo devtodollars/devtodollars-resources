@@ -10,17 +10,7 @@ authors:
 draft: false
 ---
 Below are step-by-step instructions on what to do when working with the client
-
-## 1. Requirements
-Setup a call with the client and get an understanding of their idea. Below are the minimum things you should understand:
-- Problem they are trying to solve
-- Current workflow of the user
-- Core features they want
-- Software platforms they need. This includes responsiveness like (web desktop or web mobile, etc.)
-- Competitors that they have and what makes them special.
-- The solution that they have in mind.
-
-Once we figure this out we talk with them and try to reduce the scope of work. Like do we really need X or Y feature or can we get away with this or that. 
+## [1. Estimating Software Development Costs](generating-software-development-costs.md)
 
 ## 2. Design
 The way to do design is to use a component library either [shadcn](https://ui.shadcn.com/) (for NextJS) or [Material 3](https://m3.material.io/) (for Flutter) to create the design. Follow these steps:

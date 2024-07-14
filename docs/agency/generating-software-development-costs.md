@@ -16,6 +16,7 @@ The first step to figuring the software development costs is by getting on a cal
 - Who are the users and what are their needs / goals?
 - What's the current workflow for each user?
 - What are the core features and functionalities needed?
+- Additional Questions: Competitors? Software Platform?
 
 :::note
 An important part of your job is to cut complexity in the clients' work. We want to ensure we don't build things that they don't need.
