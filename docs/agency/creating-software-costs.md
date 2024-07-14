@@ -1,6 +1,6 @@
 ---
 title: Our Step-by-Step Guide to Estimating Software Development Costs with AI
-label: Estimating Software Costs
+sidebar_label: Estimating Software Costs
 description: This guide aims to standardize the process for generating software development costs for DevToDollars
 date: 2024-07-14
 authors:
@@ -148,7 +148,7 @@ Below is an example of the estimated time estimations (using GPT-4o):
 Of course, we're not going to blindly trust AI with the estimations. After generating the estimations, inspect the estimations and make sure to make adjustments to what makes sense. At this point, feel free to add missing stories or subtract user stories that don't make sense.
 
 ## 6. Determine the Total Cost
-Now that you know the hours, it's not too difficult to figure out the cost to build the project. At DevToDollars, we charge $80 / hour. Multiply the rate but the total hours to determine the costs.
+Now that you know the hours, it's not too difficult to figure out the cost to build the project. At DevToDollars, we charge $80 / hour. Multiply the rate but the total hours to determine the costs. For the project above, the total cost would be $26320.
 
 But if you're looking to hire someone elsewhere, use the below table as a rough estimation to determine your costs:
 
@@ -162,5 +162,5 @@ But if you're looking to hire someone elsewhere, use the below table as a rough 
 Now that you've determined the cost, compile all the information into a contract and send this information to the client. 
 
 :::note
-If you're someone looking to hire a developer, I'd be more than happy to help you look over your estimate. If you're interested, [feel free to book a call with me here](https://usemotion.com/meet/ithinkwong/xyz6xw9?d=30).
+If you're someone looking to hire a developer, I'd be more than happy to help you look over your estimate. [Feel free to book a call with me here](https://usemotion.com/meet/ithinkwong/xyz6xw9?d=30).
 :::
