@@ -1,5 +1,6 @@
 ---
-title: Our Step-by-Step Guide to Generating Software Development Costs with AI
+title: Our Step-by-Step Guide to Estimating Software Development Costs with AI
+label: Estimating Software Costs
 description: This guide aims to standardize the process for generating software development costs for DevToDollars
 date: 2024-07-14
 authors:

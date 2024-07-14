@@ -10,7 +10,7 @@ authors:
 draft: false
 ---
 Below are step-by-step instructions on what to do when working with the client
-## [1. Estimating Software Development Costs](generating-software-development-costs.md)
+## [1. Estimating Software Development Costs](creating-software-development-costs.md)
 
 ## 2. Design
 The way to do design is to use a component library either [shadcn](https://ui.shadcn.com/) (for NextJS) or [Material 3](https://m3.material.io/) (for Flutter) to create the design. Follow these steps:
