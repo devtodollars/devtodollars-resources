@@ -17,7 +17,7 @@ The first step to figuring the software development costs is by getting on a cal
 - Who are the users and what are their needs / goals?
 - What's the current workflow for each user?
 - What are the core features and functionalities needed?
-- Additional Questions: Competitors? Software Platform?
+- Additional Questions: Competitors? Software Platform? Timeline?
 
 :::note
 An important part of your job is to cut complexity in the clients' work. We want to ensure we don't build things that they don't need.
@@ -69,12 +69,12 @@ Additional Important Notes:
 After compiling your findings, the next task is to create the user stories. User stories are essentially features written from the perspective of the end user. You will use AI to create the user stories based on the findings compiled above. Below is the prompt you will use:
 
 ```
-You are an experienced startup CTO. Your task is to create a detailed bullet list of user stories needed to complete the MVP based on the my needs below. 
+You are a seasoned startup CTO tasked with drafting user stories for an MVP. Below are the specific needs for the project. Create a comprehensive bullet list of user stories omitting generic elements like UI/UX, security, or testing.
 ```
 
 Here is an example of what you will send to ChatGPT (or Claude):
 ```
-You are an experienced startup CTO. Your task is to create a detailed bullet list of user stories needed to complete the MVP based on the needs below. 
+You are a seasoned startup CTO tasked with drafting user stories for an MVP. Below are the specific needs for the project. Create a comprehensive bullet list of user stories omitting generic elements like UI/UX, security, or testing.
 
 Business Goals & Problem:
 - Goal: Is to create a tool to help automatically create accurate software development cost estimates
@@ -100,55 +100,32 @@ Additional Important Notes:
 If you are satisfied with the user stories generated from the prompt above, the next step is to create the time estimations from each user story. **In the same chat**, paste the following prompt below.
 
 ```
-Based on the user stories, estimate the amount of time it takes a full stack developer to complete each user story (including extra time for additional complexities) split the hours into "frontend hours" and "backend hours". Return the results in a table with the last row being the total time estimate.
+Based on the user stories, estimate the amount of time it takes a full stack developer to complete each user story including extra time for additional complexities. Return the results in a table with the last row being the total time estimate with the folowing columns:
+- User Story
+- Frontend Hours: Involve designing and implementing the user interface, ensuring responsiveness, and integrating with backend APIs.
+- Backend Hours: Include setting up the server, database, API development, AI integration, and security implementations
+- Total Hours: Sum of frontend and backend hours
 ```
 
-Below is an example of the estimated time estimations (using GPT-4o):
+Below is an example of the estimated time estimations (using GPT-4):
 
-| User Story                                      | Frontend Hours | Backend Hours | Total Hours |
-|-------------------------------------------------|----------------|---------------|-------------|
-| **User Registration and Authentication**        |                |               |             |
-| Sign up                                         | 6              | 8             | 14          |
-| Log in                                          | 4              | 6             | 10          |
-| **User Profile Management**                     |                |               |             |
-| Update profile information                      | 5              | 7             | 12          |
-| **Requirement Collection**                      |                |               |             |
-| AI chat interaction to describe business needs  | 10             | 12            | 22          |
-| AI to ask clear questions                       | 8              | 10            | 18          |
-| Review and edit collected requirements          | 6              | 8             | 14          |
-| **Cost Estimation**                             |                |               |             |
-| Analyze business requirements for cost estimate | 5              | 15            | 20          |
-| Explain factors affecting cost                  | 3              | 7             | 10          |
-| Detailed breakdown sent via email               | 2              | 6             | 8           |
-| **UX/UI**                                       |                |               |             |
-| Intuitive interface                             | 15             | 8             | 23          |
-| Mobile-friendly web app                         | 10             | 5             | 15          |
-| **AI Chat Interaction**                         |                |               |             |
-| Friendly greeting and introduction              | 4              | 6             | 10          |
-| Structured questions to gather requirements     | 5              | 10            | 15          |
-| Provide clarifications and examples             | 4              | 8             | 12          |
-| **Requirement Analysis**                        |                |               |             |
-| Process and extract key requirements            | 3              | 12            | 15          |
-| Flag incomplete or ambiguous requirements       | 2              | 8             | 10          |
-| **Cost Estimation Engine**                      |                |               |             |
-| Analyze requirements and calculate cost         | 4              | 15            | 19          |
-| Generate detailed cost breakdown                | 3              | 10            | 13          |
-| Present cost breakdown clearly                  | 5              | 6             | 11          |
-| **Email System**                                |                |               |             |
-| Collect client email address                    | 3              | 5             | 8           |
-| Send cost estimation email                      | 2              | 6             | 8           |
-| **Additional Functionalities**                  |                |               |             |
-| View project history                            | 5              | 10            | 15          |
-| Provide feedback mechanism                      | 6              | 8             | 14          |
-| **Security**                                    |                |               |             |
-| Ensure data security                            | 2              | 10            | 12          |
-| **Total Time Estimate**                         | **133**        | **196**       | **329**     |
+| User Story                         | Frontend Hours | Backend Hours | Total Hours |
+|------------------------------------|----------------|---------------|-------------|
+| **Initial Onboarding**             | 12             | 8             | 20          |
+| **Business Requirements Input**    | 16             | 24            | 40          |
+| **AI-driven Cost Estimation**      | 8              | 32            | 40          |
+| **Reviewing Cost Estimates**       | 12             | 16            | 28          |
+| **Receiving Cost Estimations via Email** | 8          | 12            | 20          |
+| **Revising Requirements**          | 10             | 18            | 28          |
+| **Mobile-Friendly Access**         | 16             | 8             | 24          |
+| **User Feedback**                  | 6              | 10            | 16          |
+| **Total**                          | 88             | 128           | 216         |
 
 ## 5. Inspect the Generated Cost Estimation
 Of course, we're not going to blindly trust AI with the estimations. After generating the estimations, inspect the estimations and make sure to make adjustments to what makes sense. At this point, feel free to add missing stories or subtract user stories that don't make sense.
 
 ## 6. Determine the Total Cost
-Now that you know the hours, it's not too difficult to figure out the cost to build the project. At DevToDollars, we charge $80 / hour. Multiply the rate but the total hours to determine the costs. For the project above, the total cost would be $26320.
+Now that you know the hours, it's not too difficult to figure out the cost to build the project. At DevToDollars, we charge $80 / hour. Multiply the rate but the total hours to determine the costs. For the project above, the total cost would be $17280.
 
 But if you're looking to hire someone elsewhere, use the below table as a rough estimation to determine your costs:
 
