@@ -8,6 +8,7 @@ authors:
     title: Founder
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
+sidebar_position: 2
 ---
 Right now determining software development estimates is more of an art than science. This guide aims to standardize the process for generating software development costs for [DevToDollars](https://devtodollars.com). Feel free to use our process to determine your software costs!
 ## 1. Gathering Business Requirements

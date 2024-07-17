@@ -8,6 +8,7 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 draft: false
+sidebar_position: 1
 ---
 Below are step-by-step instructions on what to do when working with the client
 ## [1. Estimating Software Development Costs](estimating-software-costs.md)

@@ -1,6 +1,9 @@
 # Landing (Docusaurus)
 I chose [Docusaurus](https://docusaurus.io/) because I wanted a customizable documentation website that where I can use [Github](https://github.com) and [markdown](https://www.markdownguide.org/) as my CMS. Other solutions I found weren't customizable enough and/or didn't have the built-in SEO (e.g. blog or documentation) I needed.
 
+:::note
+See the repository for the most up to date instructions: https://github.com/devtodollars/landing-page
+:::
 ## Setup Docusaurus
 By the end of this setup you will have a deployed version of docusaurus.
 1. Click `Use this template` in the [boilerplate repository](https://github.com/devtodollars/startup-boilerplate). This repository is where the publishing will occur.

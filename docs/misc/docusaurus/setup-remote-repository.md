@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 ---
-
 # Setup remote repository
 By the end of this setup you will have a repository that contains all your resources that will deploy.
 :::info

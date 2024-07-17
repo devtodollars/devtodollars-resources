@@ -8,6 +8,7 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 draft: false
+sidebar_position: 3
 ---
 # Blog Post Checklist / Mistakes
 
