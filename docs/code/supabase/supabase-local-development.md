@@ -16,20 +16,13 @@ sidebar_position: 1
 
 1. If you haven't already, [setup Supabase](README.md)
 2. Install [Docker Desktop](https://docs.docker.com/desktop)
-3. Copy `.env.example` into `.env.local` and `.env`
-
-```bash
-cp supabase/.env.example supabase/.env.local
-cp .env.example .env
-```
-
-4. Start the Supabase server
+3. Start the Supabase server
 
 ```bash
 supabase start
 ```
 
-5. Start the functions server (in new terminal)
+4. Start the functions server (in new terminal)
 
 ```bash
 supabase functions serve --env-file supabase/.env.local

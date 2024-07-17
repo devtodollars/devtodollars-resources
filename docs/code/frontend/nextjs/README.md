@@ -9,14 +9,7 @@ git clone https://github.com/devtodollars/startup-boilerplate.git YOUR_APP_NAME
 cd YOUR_APP_NAME
 ```
 
-3. Use `.env` file from DevToDollars
-
-```
-cd nextjs
-cp .env.example .env
-```
-
-4. Run the local development server
+3. Run the local development server
 
 ```
 npm install
