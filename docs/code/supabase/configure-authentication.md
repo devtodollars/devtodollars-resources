@@ -25,8 +25,15 @@ Make sure to update redirect URLs under Authentication > URL Configuration for a
 :::
 
 ### Configure for local development
-1. Update the environment variables in `.env` with the variables created from the previous step.
-2. For the `Authorized Redirect` for Google, ensure to add `http://localhost:54321/auth/v1/callback`
+
+1. Create a `.env` file in the project root directory by copying the `.env.example`
+
+```
+cp .env.example .env
+```
+
+2. Update the environment variables with the variables created from the previous step.
+3. For the `Authorized Redirect` for Google, ensure to add `http://localhost:54321/auth/v1/callback`
 
 ![](../../assets/oauth-redirect.png)
 
