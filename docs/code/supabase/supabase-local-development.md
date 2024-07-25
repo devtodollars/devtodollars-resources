@@ -32,11 +32,11 @@ supabase start
 5. Start the functions server (in new terminal)
 
 ```bash
-supabase functions serve --env-file supabase/.env.local
+supabase functions serve --env-file supabase/.env.local --import-file supabase/functions/deno.json
 ```
 
 :::info
-You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../stripe.md) production env in local supabase env.
+You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../stripe/README.md) production env in local supabase env.
 :::
 
 :::info

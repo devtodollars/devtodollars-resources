@@ -24,5 +24,5 @@ supabase start
 ### Start local Supabase functions
 
 ```bash
-supabase functions serve --env-file supabase/.env.local
+supabase functions serve --env-file supabase/.env.local --import-file supabase/functions/deno.json
 ```

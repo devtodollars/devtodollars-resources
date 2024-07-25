@@ -16,9 +16,12 @@ cd nextjs
 cp .env.example .env
 ```
 
-4. Run the local development server
-
+4. Install the required libraries
 ```
 npm install
+```
+5. Run the local development server
+
+```
 npm run dev
 ```
