@@ -13,6 +13,6 @@ sidebar_position: 1
 4. Run a local version and simulate the following events
    1. `user signs in` -> login to the application
    2. `user signs up` -> sign up for the application
-   3. `user starts checkout` -> Craft your [checkout url](stripe/update-pricing-page.md) (e.g. `localhost:XXXXX/payments?price=price_XXXXX)` which will create a checkout sesssion but in localhost.
+   3. `user starts checkout` -> Craft your [checkout url](../stripe/update-pricing-page.md) (e.g. `localhost:XXXXX/payments?price=price_XXXXX)` which will create a checkout sesssion but in localhost.
    4. `user completes checkout` -> complete the checkout&#x20;
 5. Go to Posthog dashboard > Activity and see if the events are populated
