@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Setup Supabase
 ## Setup backend
-1. Setup [NextJS](README.md) and [Supabase](../../supabase/README.md)
+1. Setup [NextJS](README.md) and [Supabase](../supabase/README.md)
 2. Go to Project Settings > API. Then copy the project url and anon key into the variables `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` respectively in the `nextjs/.env` file.
 ```
 NEXT_PUBLIC_SUPABASE_URL="https://crnytzptlghehxsarjxm.supabase.co"
@@ -17,7 +17,7 @@ npm run
 
 
 ## Local Setup (Optional)
-1. [Setup local Supabase](../../supabase/supabase-local-development.md#setup)
+1. [Setup local Supabase](../supabase/supabase-local-development.md#setup)
 2. Copy local environment file
 ```
 cd nextjs

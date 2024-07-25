@@ -18,7 +18,7 @@ flutter run -d chrome --dart-define-from-file=env.json
 ```
 
 :::info
-The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](../../supabase/README.md).
+The Supabase backend used is the same one as [https://app.devtodollars.com](https://app.devtodollars.com) . See how to [setup your own backend](../supabase/README.md).
 :::
 
 ## Flutter Project Structure
@@ -30,7 +30,7 @@ The Supabase backend used is the same one as [https://app.devtodollars.com](http
   * `/flutter/lib/services` -> Utility or [state management](misc/state-management.md) classes are stored here
   * `/flutter/lib/models` -> Class or interface definitions that are passed around
 * `/flutter/env.json` -> Environment variables for production
-* `/flutter/env.local.json` -> Environment variables for [local development](../../supabase/supabase-local-development.md)
+* `/flutter/env.local.json` -> Environment variables for [local development](../supabase/supabase-local-development.md)
 * `/flutter/bumpversion.sh` -> Script used for [upgrading the app version](release.md)
 
 :::warning
@@ -38,5 +38,5 @@ Do NOT put sensitive keys into `env.json` or `env.local.json`
 :::
 
 ## Helpful Links
-
 * [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
+* 
