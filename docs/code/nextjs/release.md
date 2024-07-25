@@ -8,5 +8,5 @@ sidebar_position: 3
 
 2. In your Vercel deployment settings, add the following environment variables
    1. `NEXT_PUBLIC_SITE_URL`: Set it to the deployed URL
-   2. `NEXT_PUBLIC_POSTHOG_HOST`: Set it to the [posthog](../posthog/posthog.md) host
-   3. `NEXT_PUBLIC_POSTHOG_KEY`: Set it the the [posthog](../posthog/posthog.md) key
+   2. `NEXT_PUBLIC_POSTHOG_HOST`: Set it to the [posthog](../posthog/README.md) host
+   3. `NEXT_PUBLIC_POSTHOG_KEY`: Set it the the [posthog](../posthog/README.md) key
