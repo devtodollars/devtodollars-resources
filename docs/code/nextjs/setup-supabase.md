@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Setup Supabase
 ## Setup backend
@@ -17,7 +17,7 @@ npm run
 
 
 ## Local Setup (Optional)
-1. [Setup local Supabase](../supabase/supabase-local-development.md#setup)
+1. [Setup local Supabase](../supabase/local-development/pull-changes.md#setup)
 2. Copy local environment file
 ```
 cd nextjs

@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 # Configure Authentication
+Below are quick guides for configuring authentication with the boilerplate. Most apps will do fine with email only but here are also instructions for social sign ins (e.g. Google, Github).
 
 ## Setup Email
 

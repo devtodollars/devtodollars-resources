@@ -15,7 +15,6 @@ sidebar_position: 6
 :::info
 Make sure to update your `supabase/.env` file and [deploy your secrets](supabase/common-commands.md)
 :::
-
 7. (OPTIONAL) [Update Supabase SMTP](https://supabase.com/docs/guides/auth/auth-smtp) to point to Postmark.
 
 

@@ -1,4 +1,7 @@
-# NextJS
+---
+sidebar_position: 1
+---
+# Quickstart
 ## Run NextJS local web server
 
 1. [Install node](https://nodejs.org/en/download)
