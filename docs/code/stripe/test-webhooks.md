@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+# Test Webhooks
 1. Use the [Stripe CLI](https://stripe.com/docs/stripe-cli) to [login to your Stripe account](https://stripe.com/docs/stripe-cli#login-account)
 ```
 stripe login
