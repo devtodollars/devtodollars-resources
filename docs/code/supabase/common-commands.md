@@ -12,7 +12,7 @@ supabase functions deploy
 ### Set supabase secrets from .env file
 
 ```bash
-supabase secrets set --env-file supabase/.env
+supabase secrets set --env-file .env
 ```
 
 ### Start supabase local server
@@ -24,5 +24,5 @@ supabase start
 ### Start local Supabase functions
 
 ```bash
-supabase functions serve --env-file supabase/.env.local --import-map supabase/functions/deno.json
+supabase functions serve --env-file .env.local --import-map supabase/functions/deno.json
 ```

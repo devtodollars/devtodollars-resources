@@ -28,37 +28,10 @@ Stripe has a lot of built-in complexity to handle many edge cases. But at the en
 7. After the purchase, the user is redirected back to the app
 8. The app now knows the user's purchases through the stripe table
 ### Setup
-1. To get things started, you'll need to set up a [Stripe](https://stripe.com/en-ca) account and a [Supabase](https://supabase.com/) account. 
-2. Run the following SQL commands to create a read-only Stripe table in Supabase
-```sql
--- create stripe table
-create table
-public.stripe (
-user_id uuid not null,
-updated_at timestamp with time zone not null default now(),
-stripe_customer_id text null,
-created_at timestamp with time zone not null default now(),
-active_products text[] not null default '{}'::text[],
-constraint user_metadata_pkey primary key (user_id),
-constraint customers_stripe_customer_id_key unique (stripe_customer_id),
-constraint stripe_user_id_fkey foreign key (user_id) references auth.users (id) on delete cascade
-) tablespace pg_default;
-
--- keep updated_at row up to date
-create trigger handle_updated_at before
-update on stripe for each row
-execute function moddatetime ('updated_at');
-
--- add row-level security
-create policy "authenticated users can only see their data"
-on "public"."stripe"
-as permissive
-for select
-to authenticated
-using ((auth.uid() = user_id));
-```
-3. Create two Supabase functions, one to [generate a checkout link](https://github.com/devtodollars/startup-boilerplate/blob/main/supabase/functions/get_stripe_url/index.ts) and another to [handle stripe webhooks](https://github.com/devtodollars/startup-boilerplate/blob/main/supabase/functions/stripe_webhook/index.ts).
-4. After deploying the functions, [connect the webhook with Stripe](https://docs.stripe.com/webhooks#add-a-webhook-endpoint) and send the following events: `customer.subscription.deleted`, `customer.subscription.updated`, `customer.subscription.created`, `checkout.session.completed`
+1. To get things started, you'll need to set up a [Stripe](https://stripe.com/en-ca) account and a [Supabase](https://supabase.com/) account.
+2. Run the [following SQL commands](https://github.com/devtodollars/mvp-boilerplate/blob/main/supabase/migrations/20240717231009_init.sql) to create Stripe tables that will sync with stripe
+3. Create two Supabase functions, one to [generate a checkout link](https://github.com/devtodollars/startup-boilerplate/blob/main/supabase/functions/get_stripe_url/index.ts) and another to [handle stripe webhooks](https://github.com/devtodollars/startup-boilerplate/blob/main/supabase/functions/stripe_webhook/index.ts). 
+4. After deploying the functions, [connect the webhook with Stripe](https://docs.stripe.com/webhooks#add-a-webhook-endpoint) and select all events.
 5. Enable, the [checkout portal](https://dashboard.stripe.com/settings/billing/portal) in stripe by clicking "Save Changes".
 6. Now in your Flutter app, you can call the checkout function to [generate a link](https://github.com/devtodollars/startup-boilerplate/blob/main/flutter/lib/services/auth_notifier.dart#L105) so the user can begin their checkout
 7. Finally, you can make a [simple query](https://github.com/devtodollars/startup-boilerplate/blob/main/flutter/lib/services/auth_notifier.dart#L57) to check whether or not the user is subscribed

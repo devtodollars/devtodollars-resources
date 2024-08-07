@@ -18,14 +18,21 @@ For the following steps, make sure you have the ["Test Mode" toggle](https://st
 7. Click `Select all events` in the `Select events to send` section.
 8. Copy `Signing secret` as we'll need that in the next step (e.g `whsec_xxx`)
 ![](../../assets/stripe-signing-secret.png)
-9. Get your [Stripe API secret key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard) and update `STRIPE_SECRET_KEY` in `supabase/.env`
-10. Get the signing webhook signing secret and update `STRIPE_WEBHOOK_SIGNING_SECRET` in `supabase/.env`
+9. Get your [Stripe API secret key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard) and update `STRIPE_SECRET_KEY` in `.env`
+10. Get the signing webhook signing secret and update `STRIPE_WEBHOOK_SIGNING_SECRET` in `.env`
 11. Set your secrets in production
 
 ```bash
-supabase secrets set --env-file supabase/.env
+supabase secrets set --env-file .env
 ```
 
 :::info
 You can follow steps 1-7 in the [Stripe test environment](https://docs.stripe.com/test-mode) to have your local environment use the stripe test environment. Update `.env.local` instead of `.env`.
+:::
+
+:::note
+After setting up the webhooks, you can run the command below to do an initial sync between your supabase and stripe database
+```
+deno run  -A supabase/functions/_scripts/sync-stripe.ts
+```
 :::

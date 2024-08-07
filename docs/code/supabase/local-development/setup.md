@@ -8,7 +8,7 @@ sidebar_position: 1
 3. Copy `.env.example` into `.env.local` and `.env`
 
 ```bash
-cp supabase/.env.example supabase/.env.local
+cp .env.example .env.local
 cp .env.example .env
 ```
 
@@ -21,11 +21,11 @@ supabase start
 5. Start the functions server (in new terminal)
 
 ```bash
-supabase functions serve --env-file supabase/.env.local --import-file supabase/functions/deno.json
+supabase functions serve --env-file .env.local --import-file supabase/functions/deno.json
 ```
 
 :::info
-You can run change the `--env-file` to `supabase/.env` to use the production environment variables. Useful when testing out [Stripe](../../stripe/README.md) production env in local supabase env.
+You can run change the `--env-file` to `.env` to use the production environment variables. Useful when testing out [Stripe](../../stripe/README.md) production env in local supabase env.
 :::
 
 :::info

@@ -13,11 +13,11 @@ This will print a URL to navigate to in your browser and provide access to your 
 stripe listen --forward-to=http://127.0.0.1:54321/functions/v1/stripe_webhook
 ```
 
-Running this Stripe command will print a webhook secret (such as, `whsec_***`) to the console. Set `STRIPE_WEBHOOK_SECRET` to this value in your `supabase/.env` file. 
+Running this Stripe command will print a webhook secret (such as, `whsec_***`) to the console. Set `STRIPE_WEBHOOK_SECRET` to this value in your `.env` file. 
 
 3. In another terminal, run the local supabase server. See [Local Supabase Setup](../supabase/local-development/setup.md) for more information.
 ```
-supabase functions serve --env-file supabase/.env --import-map supabase/functions/deno.json
+supabase functions serve --env-file .env --import-map supabase/functions/deno.json
 ```
 
 4. Now local webhooks should be working!
