@@ -8,7 +8,6 @@ authors:
     url: https://twitter.com/IThinkWong
     image_url: https://github.com/matthewwong525.png
 ---
-
 Hi everyone!
 
 I've been building an app for a client I can't mention the app yet because she hasn't released it yet, but essentially it's [linktr.ee](http://linktr.ee) for people who host events. It's fairly common app so I figured it'd be cool to share my tech stack and a short blurb on why I chose the tool. 
