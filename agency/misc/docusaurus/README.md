@@ -8,9 +8,9 @@ See the repository for the most up to date instructions: https://github.com/devt
 By the end of this setup you will have a deployed version of docusaurus.
 1. Click `Use this template` in the [boilerplate repository](https://github.com/devtodollars/startup-boilerplate). This repository is where the publishing will occur.
 2. Once you've cloned the repository head over to [Netlify](https://netlify.com) > Add New Site > Import an existing project
-![](../../assets/netlify-import-proj.png)
+![](../../../docs/assets/netlify-import-proj.png)
 3. Select `Deploy with Github` and select the repository you just created
 4.  Set the base directory, build command, and publish directory as seen below.
-![](../../assets/netlify-build-settings.png)
+![](../../../docs/assets/netlify-build-settings.png)
 4. Click "Deploy" and wait for your site to be published!
 

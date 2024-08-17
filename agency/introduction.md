@@ -14,7 +14,7 @@ This is a guide for you to get started with using our processes of running our a
 ## Let's get started
 Depending on your needs, you might want to start at different points in our documentation:
 
-- **Interested in using the boilerplate?** Check out the [code documentation](code/README.md) for detailed instructions on how to get started.
+- **Interested in using the boilerplate?** Check out the [code documentation](../docs/README.md) for detailed instructions on how to get started.
 - **Curious about our process?** Learn about [our agency workflow](agency/dev-agency-workflow.md) to understand how we operate and manage projects.
 
 :::tip[Want Us To Build Your MVP?]  

@@ -25,7 +25,7 @@ supabase functions serve --env-file .env.local --import-file supabase/functions/
 ```
 
 :::info
-You can run change the `--env-file` to `.env` to use the production environment variables. Useful when testing out [Stripe](../../stripe/README.md) production env in local supabase env.
+You can run change the `--env-file` to `.env` to use the production environment variables. Useful when testing out [Stripe](../../../stripe/README.md) production env in local supabase env.
 :::
 
 :::info

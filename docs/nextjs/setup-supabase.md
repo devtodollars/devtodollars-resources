@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Setup Supabase
 ## Setup backend
-1. Setup [NextJS](./quickstart.md) and [Supabase](../supabase/README.md)
+1. Setup [NextJS](quickstart.md) and [Supabase](../supabase/README.md)
 2. Go to Project Settings > API. Then copy the project url and anon key into the variables `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` respectively in the `nextjs/.env` file.
 ```
 NEXT_PUBLIC_SUPABASE_URL="https://crnytzptlghehxsarjxm.supabase.co"
