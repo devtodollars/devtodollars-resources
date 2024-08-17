@@ -1,7 +1,7 @@
 ---
 title: The NextJS app I sold for $15K - a full stack breakdown
 description: Below is the tech stack I used to build my NextJS app and sell it for $15k
-date: 2024-03-14
+date: 2024-08-14
 authors:
   - name: Matthew Wong
     title: Founder
