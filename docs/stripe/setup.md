@@ -11,7 +11,7 @@ For the following steps, make sure you have the ["Test Mode" toggle](https://st
 3. Go to [portal settings](https://dashboard.stripe.com/settings/billing/portal) and click "Save Changes"
 4. Go to Supabase dashboard > Edge Functions and copy the `stripe_webhooks` URL. It should look something like below:
 
-![](../../assets/stripe-webhook-supabase.png)
+![](../assets/stripe-webhook-supabase.png)
 
 5. [Add stripe webhook](https://docs.stripe.com/webhooks#add-a-webhook-endpoint), 
 6. Click `Select events` under the `Select events to listen to` heading.

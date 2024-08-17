@@ -22,7 +22,7 @@ supabase functions serve --env-file .env --import-map supabase/functions/deno.js
 
 4. Now local webhooks should be working!
 
-:::NOTE
+:::note
 One way to test to see if everything is working is by running stripe fixtures. This will prepopulate test products and prices into stripe.
 ```
 stripe fixtures nextjs/fixtures/stripe-fixtures.json
