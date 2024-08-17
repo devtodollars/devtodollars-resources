@@ -17,7 +17,7 @@ For the following steps, make sure you have the ["Test Mode" toggle](https://st
 6. Click `Select events` under the `Select events to listen to` heading.
 7. Click `Select all events` in the `Select events to send` section.
 8. Copy `Signing secret` as we'll need that in the next step (e.g `whsec_xxx`)
-![](../../assets/stripe-signing-secret.png)
+![](../assets/stripe-signing-secret.png)
 9. Get your [Stripe API secret key](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard) and update `STRIPE_SECRET_KEY` in `.env`
 10. Get the signing webhook signing secret and update `STRIPE_WEBHOOK_SIGNING_SECRET` in `.env`
 11. Set your secrets in production

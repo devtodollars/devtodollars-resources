@@ -6,4 +6,4 @@ The advantage using Supabase edge function provides is that it:
 2. Allows us to keep the server side logic within Supabase in case we wanted to switch off of Vercel.
 ## Architecture
 
-![](../../assets/stripe-architecture.png)
+![](../assets/stripe-architecture.png)
