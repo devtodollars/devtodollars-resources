@@ -17,7 +17,7 @@ npm run
 
 
 ## Local Setup (Optional)
-1. [Setup local Supabase](../supabase/local-development/pull-changes.md#setup)
+1. [Setup local Supabase](../supabase/local-development/setup.md)
 2. Copy local environment file
 ```
 cd nextjs

@@ -21,7 +21,7 @@ flutter run --dart-define-from-file=env.json
 ```
 
 ## Local setup (Optional)
-1. [Setup local Supabase](../supabase/local-development/pull-changes.md#setup)
+1. [Setup local Supabase](../supabase/local-development/setup.md)
 2. Run the flutter web app (in new terminal)
 
 ```bash
